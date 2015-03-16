@@ -1225,11 +1225,11 @@ print(bw_main_posthoc, row.names=FALSE)
 
 
 ### 1.3 Body Weight - Charts
-```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=9, fig.height=6, dev='svg'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=9, fig.height=6, dev='png'}
 bw_main_chart_facet
 ```
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=6, fig.height=4, dev='svg'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=6, fig.height=4, dev='png'}
 bw_main_chart_allinone
 ```
 
@@ -1248,15 +1248,15 @@ print(bwg_main_posthoc, row.names=F)
 ```
 
 ### 2.3 Body Weight Gain - Charts
-```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=10, fig.height=3, dev='svg'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=10, fig.height=3, dev='png'}
 bwg_main_chart_facet
 ```
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=5, fig.height=5, dev='svg'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=5, fig.height=5, dev='png'}
 bwg_main_chart_all   
 ```
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=6, fig.height=4, dev='svg'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=6, fig.height=4, dev='png'}
 bwg_main_chart_allinone
 ```
 
@@ -1270,15 +1270,15 @@ print(fc_main_desc_output, row.names=F)
 ```
 
 ### 3.2 Food Consumption - Charts
-```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=8, fig.height=4, dev='svg'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=8, fig.height=4, dev='png'}
 fc_main_chart_facet
 ```
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=6, fig.height=4, dev='svg'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=6, fig.height=4, dev='png'}
 fc_main_chart_allinone   
 ```
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=5, fig.height=5, dev='svg'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=5, fig.height=5, dev='png'}
 fc_main_chart_sum
 ```
 
@@ -1348,7 +1348,7 @@ write.table(format(cp_list_count, justify = 'left'), row.names = F, col.names = 
 ```
 
 ### 4.3 Clinical Pathology - Charts
-```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=8, fig.height=16, dev='svg'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, comment='', fig.width=8, fig.height=16, dev='png'}
 cp_main_comp_facet
 ```
 

@@ -1,7 +1,4 @@
 
-```
-Error in file(filename, "r", encoding = encoding): 无法打开链结
-```
 
 
 
@@ -10,9 +7,6 @@ MINITOX - QUICK SUMMARY
 
 STUDY INFORMATION
 -----------------
-
-ALLLLLAH
-
 
 
 ```
@@ -78,9 +72,9 @@ Group 3: 301-303                | enter information here
 
 
 ### 1.3 Body Weight - Charts
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.svg) 
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.svg) 
+![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png) 
 
 ******
 2 BODY WEIGHT GAIN
@@ -113,11 +107,11 @@ Group 3: 301-303                | enter information here
 ```
 
 ### 2.3 Body Weight Gain - Charts
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.svg) 
+![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png) 
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.svg) 
+![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png) 
 
-![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.svg) 
+![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png) 
 
 ******
 3. FOOD CONSUMPTION
@@ -135,11 +129,11 @@ Group 3: 301-303                | enter information here
 ```
 
 ### 3.2 Food Consumption - Charts
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.svg) 
+![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png) 
 
-![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14-1.svg) 
+![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14-1.png) 
 
-![plot of chunk unnamed-chunk-15](figure/unnamed-chunk-15-1.svg) 
+![plot of chunk unnamed-chunk-15](figure/unnamed-chunk-15-1.png) 
 
 ******
 4. CLINICAL PATHOLOGY
@@ -279,11 +273,22 @@ Group 3: 301-303                | enter information here
 #### Full Names of Indices with Statistical Significance
 
 ```
-Error in eval(expr, envir, enclos): 没有"read.xlsx"这个函数
+ALP  -  Alkaline Phosphatase (U/L)                      
+ALT  -  Alanine Aminotransferase (U/L)                  
+WBC  -  White Blood Cells  (10^9/L)                     
+RBC  -  Red Blood Cells (10^12/L)                       
+HGB  -  Hemoglobin (g/L)                                
+HCT  -  Hematocrit (%)                                  
+RDW.CV  -  Red Blood Cell Distribution of Width - CV (%)
+LYMPH  -  Lymphocytes (10^9/L)                          
+MONO  -  Monocytes (10^9/L)                             
+BASO  -  Basophils (10^9/L)                             
+LUC  -  Large Unstained Cells (10^9/L)                  
+LUC_PER  -  Large Unstained Cells (%)                   
 ```
 
 ### 4.3 Clinical Pathology - Charts
-![plot of chunk unnamed-chunk-19](figure/unnamed-chunk-19-1.svg) 
+![plot of chunk unnamed-chunk-19](figure/unnamed-chunk-19-1.png) 
 
 ******
 5. ADDITIONAL INFORMATION
@@ -311,5 +316,5 @@ Error in 1:(nrow(necro_obs) - 1): 参数长度为零
 
 
 ```
-THE SUMMARY WAS CREATED ON 2015-03-13 22:49:21.
+THE SUMMARY WAS CREATED ON 2015-03-16 18:53:02.
 ```
